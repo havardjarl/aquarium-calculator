@@ -1,0 +1,5 @@
+<form id="f" onsubmit="return false"><label>Units <select id="u"><option value="in">inches</option><option value="cm">cm</option></select></label>
+<label>Inside length <input id="L" type="number" value="24" step="any"></label><label>Inside width <input id="W" type="number" value="12" step="any"></label><label>Inside height <input id="H" type="number" value="16" step="any"></label>
+<label>Substrate depth <input id="sd" type="number" value="2" step="any"></label><label>Substrate <select id="st"><option value="100">Gravel / sand (~100 lb/ft³)</option><option value="55">Lightweight aquasoil (~55 lb/ft³)</option></select></label>
+<label>Gap below rim <input id="gap" type="number" value="1" step="any"></label><label>Target temp minus room temp (°F) <input id="dt" type="number" value="8"></label>
+<label><input id="salt" type="checkbox"> Saltwater</label><button type="button" onclick="calc()">Calculate</button></form><div id="out" class="out"></div><script src="calc.js"></script>

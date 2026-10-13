@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://havardjarl.github.io/aquarium-calculator/sitemap.xml
